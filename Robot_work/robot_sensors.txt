@@ -17,17 +17,18 @@ x21 = Box Lifter Sensor DOWN
 x22 = Rail Sensor IN (the part bringing boxes to the lifter)
 x23 = Rail Sensor OUT
 x24 = Stopper POS Sensor
-x25 = Latches Sensor Activated
-x26 = Latches Sensor Deactivated
+x25 = Conveyer Sensor IN (around weight scale)
+x26 = Conveyer Sensor OUT (around weight scale)
 x27 = Lifting Position Sensor
+x30 = WeightScale Lift Sensor
 
 
 
 x100 = Robot Hand (Open, Close)
 x101 = Reset Hex Nut Counter (From RBT)
 x102 = Reset Hex Nut Error (From RBT)
-x103 = Activate Latches
-x104 = Run Belt Conveyer
+x103 = Lift Box Command (in front of RBT)
+x104 = Push Box Forward (in front of RBT)
 x136 = Transfer Hex Nut Amount (From RBT)
 ________________________________________________
 Y0 (CYL 1) = Hex Nut Cylinder
@@ -36,8 +37,8 @@ Y2 = Broken Port/ Not used
 Y3 (CYL 3) = Hex Nut Hopper
 Y4 (CYL 5) = Lift Boxes
 Y5 (CYL 4) = Pull Boxes to the Lifter
-Y6 (CYL 6) = Latches
-Y12 (CYL 7) = Belt Conveyer
+Y6 (CYL 6) = Lift Box (in front of RBT)
+Y10 (CYL 7) = Push Box Forward (in front of RBT)
 
 
 Y21 = Hex Nut Work done (activated on PLC, reset through RBT)
@@ -59,7 +60,6 @@ everything that needs to be changed:
 	POS of PPUT
 	POS of PTPUT
 	POS of P1 to P4
-	def Phome2
 	POS of PTRANSIT (depending on how it affects the move)
 distance from bottom of box to robot hand is 126mm for the P1 to P4 positions
 distance from bottom of box to PPUT is 147mm

@@ -1,3 +1,7 @@
 	PC Side		Robot Side	PLC Side	Meaning
-1.	STS,2_1		Error 9101	Y36			No Hex Nuts
-2.	STS,2_2		N/A			N/A			Incorrect Input from PC 0
+1.	STS,2_1		Error 9101	Y36		No Hex Nuts
+2.	STS,2_2		N/A		N/A		Incorrect Input from PC 0
+
+※ RBT = Melfa Robot (Server to PC 1[192.168.3.5 ::10006])
+   PC 0 = PC sending the initial Kana data (Client to PC 1)
+   PC 1 = PC receiving Kana data from PC 1 and transferring them to RBT (Server to PC 0[127.0.0.1 :: 1024] and Client to RBT)

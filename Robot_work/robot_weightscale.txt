@@ -39,4 +39,5 @@ Potential ways of retrieving data from weightscale
 	In case the difference between the new weight and the previous weight doesn't go beyond the threshold,
 	we will trigger the robot to redo the same cycle it just did.
 
-2.  
+2.  From Nomura's computer
+3.  Read it PC1, make a parallel program to send it to robot upon robot's request.
