@@ -48,16 +48,16 @@ Seeing as we mainly work with Mitsubishi's products in this project, we use soft
 In this project, we mainly serial and ethernet connections to interconnect devices.
 Details are listed below:
 
-|      Devices    |    Connection   |
-|-----------------|-----------------|
-|     PLC % HMI   |     MELSOFT     |
-|    Robot & PLC  |     CC-LINK     |
-|    Robot & HMI  |       SMLP      |
-|     PC & Robot  |      TCP/IP     |
-|     PC & HMI    |      TCP/IP     |
-|     PC & PLC    |      TCP/IP     |
-| PC & WeightScale|      RS-232C    |
-|   PC & Printer  |      RS-232C    |
+|      Devices    |     Connection   |
+|-----------------|------------------|
+|     PLC % HMI   |  TCP/IP(MELSOFT) |
+|    Robot & PLC  |      CC-LINK     |
+|    Robot & HMI  |   TCP/IP(SMLP)   |
+|     PC & Robot  |       TCP/IP     |
+|     PC & HMI    |       TCP/IP     |
+|     PC & PLC    |       TCP/IP     |
+| PC & WeightScale|       RS-232C    |
+|   PC & Printer  |       RS-232C    |
 
 2. Device Configuration
 
