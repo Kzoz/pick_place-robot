@@ -9,8 +9,7 @@ Some part of the system won't be disclosed.
 2. [Objective](https://github.com/Kzoz/pick_place-robot/blob/b6b515bcfeed07584688a4f2fe7675130e581c27/docs/index.md#objective)
 3. [Environment Setup](https://github.com/Kzoz/pick_place-robot/blob/b6b515bcfeed07584688a4f2fe7675130e581c27/docs/index.md#environment-setup)
 4. [Physical Structure](https://github.com/Kzoz/pick_place-robot/blob/b6b515bcfeed07584688a4f2fe7675130e581c27/docs/index.md#physical-structure)
-5. [Programs](https://github.com/Kzoz/pick_place-robot/blob/b6b515bcfeed07584688a4f2fe7675130e581c27/docs/index.md#programs)
-6. [Test and Review](https://github.com/Kzoz/pick_place-robot/blob/b6b515bcfeed07584688a4f2fe7675130e581c27/docs/index.md#test-and-review)
+5. [Test and Review](https://github.com/Kzoz/pick_place-robot/blob/b6b515bcfeed07584688a4f2fe7675130e581c27/docs/index.md#test-and-review)
 
 ### Introduction
 
