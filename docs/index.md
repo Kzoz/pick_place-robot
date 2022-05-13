@@ -45,7 +45,8 @@ Seeing as we mainly work with Mitsubishi's products in this project, we use soft
 
 1. Local Network
 
-In this project, we mainly serial and ethernet connections to interconnect devices.
+Mitsubishi products better connect with Mitsubishi's own communication protocols such as MELFSOFT or SLMP. 
+As for the rest of devices, we made use of TCP based Telnet or RS-232C.<br>
 Details are listed below:
 
 |      Devices    |     Connection   |
@@ -54,8 +55,8 @@ Details are listed below:
 |    Robot & PLC  |      CC-LINK     |
 |    Robot & HMI  |        SMLP      |
 |     PC & Robot  |       Telnet     |
-|     PC & HMI    |       Telnet     |
-|     PC & PLC    |       Telnet     |
+|     PC & HMI    |      MELSOFT     |
+|     PC & PLC    |      MELSOFT     |
 | PC & WeightScale|       RS-232C    |
 |   PC & Printer  |       RS-232C    |
 
