@@ -1,3 +1,18 @@
+## Metal Fittings(Kanamono) Picking System
+
+**Detect presence, Pick, Weigh, Place, Convey and Arrange Metal Fittings**
+
+### Contents
+
+1. Introduction 
+2. Objective
+3. Environment Setup
+4. Physical Structure
+5. Programs
+6. Test and Review
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Kzoz/picking-robot/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
