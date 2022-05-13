@@ -1,6 +1,6 @@
 ## Metal Fittings(Kanamono) Picking System
 
-**Detect presence, Pick, Weigh, Place, Convey and Arrange Metal Fittings' System**
+**Detect presence, Pick, Weigh, Place, Convey and Arrange Metal Fittings' System**<br>
 Some part of the system won't be disclosed. 
 
 ### Contents
@@ -21,7 +21,23 @@ Therefore, the pre-assembly stage remains a crucial to the success of each const
 
 ### Objective
 
-This Kanamono picking system aims to detect pick, weigh and place metal fittings in boxes according to a work list sent to the robot. Then, using a conveyer system, the boxes are transported and arrange in shelves before being, later on, picked up by workers when needed. <br>
+This Kanamono picking system aims to pick, verify and place metal fittings in boxes according to a work list sent to the robot. Then, using a conveyer system, the boxes are transported and arrange in shelves before being, later on, picked up by workers. <br>
+Considering workers will have to store (refill) kanamono in the metal fittings structure and many metal fittings such as pins and pipes are very similar looking, the chances of mistakes is not null. Therefore, we also ensure to detect presence and type of kanamono with sensors. Not only for the robot's destination position, but also to send a *refill alert* to workers. Furthermore, we add an extra layer of verification by weighing the metal fittings.<br>
+
+In this project, we aim to:
+- Efficiently pick, weigh and place each target within 11 seconds
+- Ensure each the correctness and correct grasping of each target by comparing its mass to the mass stored in our DB
+- Efficiently convey each box to its appropriate destination
+- Build a program to manage, control and monitor the entire system
+
+
+### Environment Setup
+
+
+|       Device     |     Software     |     Prg Lang/Tool    |
+|------------------|------------------|----------------------|
+| Robot (RV-5AS-D) |   RT Toolbox 3   |       MELFA Basic    |
+| PLC (FX5U-32MT)  |    GX Works 3    |       Ladder         |
 
 
 ## Welcome to GitHub Pages
