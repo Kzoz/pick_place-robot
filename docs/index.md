@@ -33,14 +33,41 @@ In this project, we aim to:
 
 ### Environment Setup
 
+Seeing as we mainly work with Mitsubishi's products in this project, we use softwares provided by Mitsubishi in order to program and monitor some of the devices. Moreover, we build our own softwares to better manage the system, monitor the devices, transfer data between devices and make the system easily controllable by workers.<br>
 
 |       Device        |     Software     |     Prg Lang/Tool    |
 |---------------------|------------------|----------------------|
 |   Robot (RV-5AS-D)  |   RT Toolbox 3   |       MELFA Basic    |
 |   PLC (FX5U-32MT)   |    GX Works 3    |       Ladder         |
 |   HMI (GT2508-VTBD) |   GT Designer 3  |                      |
-| Control/Monitor Sys |    by authors    |       C++/Python     |      
+| Control/Monitor Sys |    by authors    |       C++/Python     |
+|    A&D HV-15KGL     |    by authors    |        Python        |
+|       Printer       |    by authors    |       C++/Python     |
 
+1. Local Network
+
+In this project, we mainly serial and ethernet connections to interconnect devices.
+Details are listed below:
+
+|      Devices    |    Connection   |
+|-----------------|-----------------|
+|     PLC % HMI   |     MELSOFT     |
+|    Robot & PLC  |     CC-LINK     |
+|    Robot & HMI  |       SMLP      |
+|     PC & Robot  |      TCP/IP     |
+|     PC & HMI    |      TCP/IP     |
+|     PC & PLC    |      TCP/IP     |
+| PC & WeightScale|      RS-232C    |
+|   PC & Printer  |      RS-232C    |
+
+2. Device Configuration
+
+**(Refer ro README.txt)**
+
+
+### Physical Structure
+
+### Test and Review
 
 ## Welcome to GitHub Pages
 
