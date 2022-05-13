@@ -13,7 +13,7 @@ direct = "/Users/seisan/Codes/robot/"
 name = os.path.join(direct, filename) #obtain filename
 
 with open(name) as filehandle:
-    lines = filehandle.readlines() #retrieve all lines in file
+    lines = filehandle.readlines() 
 with open(name, 'w') as filehandle:
     lines = filter(lambda x: x.strip(), lines) #remove empty lines
     filehandle.writelines(lines)    #write new lines in same file
