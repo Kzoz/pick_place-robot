@@ -61,7 +61,7 @@ Details are listed below:
 
 2. Device Configuration
 
-**[(Refer ro README.txt)](https://github.com/Kzoz/pick_place-robot/blob/1c1ec4907c43758da2b93e9150891c6ac6a3e122/Robot_work/README.txt)**
+**[(Refer to README.txt)](https://github.com/Kzoz/pick_place-robot/blob/1c1ec4907c43758da2b93e9150891c6ac6a3e122/Robot_work/README.txt)**
 
 
 ### Physical Structure
