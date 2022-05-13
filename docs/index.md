@@ -49,6 +49,8 @@ Mitsubishi products better connect with Mitsubishi's own communication protocols
 As for the rest of devices, we made use of TCP based Telnet or RS-232C.<br>
 Details are listed below:
 
+![Connection Fig](https://github.com/Kzoz/pick_place-robot/blob/5d4bba74b6d87fe7b8f372e42ea815ca5c8812c5/docs/picking_system.jpeg)
+
 |      Devices    |     Connection   |
 |-----------------|------------------|
 |     PLC % HMI   |      MELSOFT     |
