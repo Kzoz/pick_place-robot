@@ -1,7 +1,7 @@
 ## Metal Fittings(Kanamono) Picking System
 
 **Detect presence, Pick, Weigh, Place, Convey and Arrange Metal Fittings' System**
-Some part of the system won't be disclosed. Only some parts surrounding the pick-place system will be explained.
+Some part of the system won't be disclosed. 
 
 ### Contents
 
