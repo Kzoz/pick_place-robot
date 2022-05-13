@@ -50,12 +50,12 @@ Details are listed below:
 
 |      Devices    |     Connection   |
 |-----------------|------------------|
-|     PLC % HMI   |  TCP/IP(MELSOFT) |
+|     PLC % HMI   |      MELSOFT     |
 |    Robot & PLC  |      CC-LINK     |
-|    Robot & HMI  |   TCP/IP(SMLP)   |
-|     PC & Robot  |       TCP/IP     |
-|     PC & HMI    |       TCP/IP     |
-|     PC & PLC    |       TCP/IP     |
+|    Robot & HMI  |        SMLP      |
+|     PC & Robot  |       Telnet     |
+|     PC & HMI    |       Telnet     |
+|     PC & PLC    |       Telnet     |
 | PC & WeightScale|       RS-232C    |
 |   PC & Printer  |       RS-232C    |
 
