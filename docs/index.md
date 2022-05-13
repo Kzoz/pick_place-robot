@@ -34,10 +34,12 @@ In this project, we aim to:
 ### Environment Setup
 
 
-|       Device     |     Software     |     Prg Lang/Tool    |
-|------------------|------------------|----------------------|
-| Robot (RV-5AS-D) |   RT Toolbox 3   |       MELFA Basic    |
-| PLC (FX5U-32MT)  |    GX Works 3    |       Ladder         |
+|       Device        |     Software     |     Prg Lang/Tool    |
+|---------------------|------------------|----------------------|
+|   Robot (RV-5AS-D)  |   RT Toolbox 3   |       MELFA Basic    |
+|   PLC (FX5U-32MT)   |    GX Works 3    |       Ladder         |
+|   HMI (GT2508-VTBD) |   GT Designer 3  |                      |
+| Control/Monitor Sys |    by authors    |       C++/Python     |      
 
 
 ## Welcome to GitHub Pages
